@@ -1,7 +1,7 @@
 Perch-Config
 ============
 
-[Perch]() dotfiles.
+[Perch](https://github.com/Laoujin/perch) dotfiles.
 
 - git configuration
 - bash & PowerShell
