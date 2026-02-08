@@ -1,8 +1,6 @@
 Install-PS-Modules:
-- PsGet
 - Posh-Git
 - PSReadLine
-- Jump.Location
 - PSYaml
 - Git-NumberedAdd
 
