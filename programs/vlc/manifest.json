@@ -1,0 +1,14 @@
+{
+	"title": "VLC",
+	"modules":
+	{
+		"Create-Links":
+		[
+			{
+				"type": "symlink",
+				"link": "vlcrc",
+				"to": "<APPDATA_ROAMING>\\vlc\\vlcrc"
+			}
+		]
+	}
+}

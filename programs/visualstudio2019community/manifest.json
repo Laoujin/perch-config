@@ -1,0 +1,25 @@
+{
+	"title": "Visual Studio 2019",
+	"package": "VisualStudio2019Community",
+	"modules":
+	{
+		"Create-Links":
+		[
+			{
+				"type": "junction",
+				"link": "2019",
+				"to": "<MYDOCUMENTS>\\Visual Studio 2019"
+			},
+			{
+				"type": "symlink",
+				"link": "2019\\Settings\\CurrentSettings.vssettings",
+				"to": "<LocalApplicationData>\\Microsoft\\VisualStudio\\16.0_930b7bdf\\Settings\\CurrentSettings.vssettings"
+			},
+			{
+				"type": "symlink",
+				"link": "2019\\Settings\\CurrentSettings.vssettings",
+				"to": "<LocalApplicationData>\\Microsoft\\VisualStudio\\16.0_1e0f5986\\Settings\\CurrentSettings.vssettings"
+			}
+		]
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"title": "Greenshot",
+	"modules":
+	{
+		"Create-Links":
+		[
+			{
+				"type": "symlink",
+				"link": "Greenshot.ini",
+				"to": "<APPDATA_ROAMING>\\Greenshot\\Greenshot.ini"
+			}
+		]
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"title": "Ditto",
+	"modules":
+	{
+		"Update-RegistryKeys":
+		[
+			{
+				"type": "fixed",
+				"desc": "Use Control + µ to open Ditto history at mouse cursor",
+				"hive": "HKEY_CURRENT_USER",
+				"regPathRaw": "Software\\Ditto",
+				"regKey": "DittoHotKey",
+				"value": "732"
+			},
+			{
+				"type": "fixed",
+				"desc": "Paste what was last copied with Control + 1",
+				"hive": "HKEY_CURRENT_USER",
+				"regPathRaw": "Software\\Ditto",
+				"regKey": "Position1",
+				"value": "609"
+			},
+			{
+				"type": "fixed",
+				"desc": "Paste what was previously copied with Control + 2",
+				"hive": "HKEY_CURRENT_USER",
+				"regPathRaw": "Software\\Ditto",
+				"regKey": "Position2",
+				"value": "610"
+			},
+			{
+				"type": "fixed",
+				"desc": "Paste what was 'previously previously' copied with Control + 3",
+				"hive": "HKEY_CURRENT_USER",
+				"regPathRaw": "Software\\Ditto",
+				"regKey": "Position3",
+				"value": "611"
+			}
+		]
+	}
+}

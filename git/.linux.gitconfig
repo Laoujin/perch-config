@@ -1,0 +1,33 @@
+[core]
+	autocrlf = input
+
+[alias]
+	open = !xdg-open `git config remote.origin.url`
+	issues = !xdg-open `git config remote.origin.url`/issues
+	open-dir = !xdg-open `git config remote.origin.url`/tree/$(git branch-name)/$(git rev-parse --show-prefix ${GIT_PREFIX:-./} | tail -n 1)
+
+
+### Diff tooling
+
+[diff]
+	tool = vsc
+
+[difftool "bc3"]
+	path = /usr/bin/bcompare
+
+[difftool "vsc"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+
+[merge]
+	tool = bc3
+
+[mergetool]
+	prompt = false
+	keepBackup = false
+
+[mergetool "bc3"]
+	path = /usr/bin/bcompare
+	trustExitCode = true
+
+[mergetool "vsc"]
+	cmd = code --wait $MERGED

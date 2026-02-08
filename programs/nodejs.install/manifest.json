@@ -1,0 +1,24 @@
+{
+	"title": "Node",
+	"modules":
+	{
+		"Install-NodePackages":
+		[
+			"yo",
+			"gulp",
+			"pug",
+			"eslint",
+			"eslint_d",
+			"eslint-plugin-react",
+			"babel-eslint",
+			"react-create-app",
+			"licenser",
+			"http-server",
+			"rimraf",
+			"npm-check-updates",
+			"flow-bin",
+			"prettier",
+			"@angular/cli"
+		]
+	}
+}

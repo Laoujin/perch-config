@@ -1,0 +1,24 @@
+{
+	"title": "FileZilla",
+	"modules":
+	{
+		"Create-Links":
+		[
+			{
+				"type": "symlink",
+				"link": "filezilla.xml",
+				"to": "<APPDATA_ROAMING>\\FileZilla\\filezilla.xml"
+			},
+			{
+				"type": "symlink",
+				"link": "layout.xml",
+				"to": "<APPDATA_ROAMING>\\FileZilla\\layout.xml"
+			},
+			{
+				"type": "symlink",
+				"link": "sitemanager.xml",
+				"to": "<APPDATA_ROAMING>\\FileZilla\\sitemanager.xml"
+			}
+		]
+	}
+}
