@@ -1,0 +1,12 @@
+display-name: Bun Global Packages
+enabled: false
+global-packages:
+  manager: bun
+  packages:
+    - eslint_d
+    - http-server
+    - rimraf
+    - npm-check-updates
+    - prettier
+    - tsx
+    - tldr
