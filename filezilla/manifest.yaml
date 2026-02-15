@@ -1,0 +1,10 @@
+display-name: FileZilla
+platforms:
+  - Windows
+links:
+  - source: filezilla.xml
+    target: "%APPDATA%\\FileZilla\\filezilla.xml"
+  - source: layout.xml
+    target: "%APPDATA%\\FileZilla\\layout.xml"
+  - source: sitemanager.xml
+    target: "%APPDATA%\\FileZilla\\sitemanager.xml"
