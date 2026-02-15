@@ -1,0 +1,34 @@
+[core]
+	autocrlf = true
+
+[alias]
+	open = !explorer `git config remote.origin.url`
+	issues = !explorer `git config remote.origin.url`/issues
+	open-dir = !explorer `git config remote.origin.url`/tree/$(git branch-name)/$(git rev-parse --show-prefix ${GIT_PREFIX:-./} | tail -n 1)
+
+
+### Diff tooling
+
+[diff]
+	tool = vsc
+
+[difftool "bc3"]
+	path = C:\\Program Files (x86)\\Beyond Compare 3\\bcomp.exe
+#	cmd = \"c:/program files (x86)/beyond compare 3/bcomp.exe\" \"$LOCAL\" \"$REMOTE\"
+
+[difftool "vsc"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+
+[merge]
+	tool = bc3
+
+[mergetool]
+	prompt = false
+	keepBackup = false
+
+[mergetool "bc3"]
+	path = C:\\Program Files (x86)\\Beyond Compare 3\\bcomp.exe
+	trustExitCode = true
+
+[mergetool "vsc"]
+	cmd = code --wait $MERGED

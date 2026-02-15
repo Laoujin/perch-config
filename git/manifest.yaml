@@ -1,0 +1,34 @@
+display-name: Git
+links:
+  - source: .gitconfig
+    target:
+      windows: "%USERPROFILE%\\.gitconfig"
+      linux: "$HOME/.gitconfig"
+      macos: "$HOME/.gitconfig"
+  - source: .common.gitconfig
+    target:
+      windows: "%USERPROFILE%\\.common.gitconfig"
+      linux: "$HOME/.common.gitconfig"
+      macos: "$HOME/.common.gitconfig"
+  - source: .windows.gitconfig
+    target:
+      windows: "%USERPROFILE%\\.windows.gitconfig"
+  - source: .linux.gitconfig
+    target:
+      linux: "$HOME/.linux.gitconfig"
+      macos: "$HOME/.linux.gitconfig"
+  - source: .gitignore_global
+    target:
+      windows: "%USERPROFILE%\\.gitignore_global"
+      linux: "$HOME/.gitignore_global"
+      macos: "$HOME/.gitignore_global"
+  - source: .gitattributes_global
+    target:
+      windows: "%USERPROFILE%\\.gitattributes_global"
+      linux: "$HOME/.gitattributes_global"
+      macos: "$HOME/.gitattributes_global"
+  - source: .editorconfig
+    target:
+      windows: "%USERPROFILE%\\.editorconfig"
+      linux: "$HOME/.editorconfig"
+      macos: "$HOME/.editorconfig"
