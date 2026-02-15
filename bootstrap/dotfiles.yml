@@ -1,4 +1,0 @@
-Create-Links:
-- type: symlink
-  link: dotfiles\bash\.bashrc
-  to: <HOME>\.bashrc
