@@ -1,75 +1,108 @@
 packages:
-  - name: fiddler4
-    manager: chocolatey
-  - name: google-chrome-x64
-    manager: chocolatey
-  - name: firefox
-    manager: chocolatey
-  - name: opera
-    manager: chocolatey
-  - name: git
-    manager: chocolatey
-  - name: git-credential-winstore
-    manager: chocolatey
-  - name: git-lfs
-    manager: chocolatey
-  - name: notepadplusplus.install
-    manager: chocolatey
-  - name: dropbox
-    manager: chocolatey
-  - name: onedrive
-    manager: chocolatey
-  - name: googledrive
-    manager: chocolatey
-  - name: cmder
-    manager: chocolatey
-  - name: sysinternals
-    manager: chocolatey
-  - name: procexp
-    manager: chocolatey
-  - name: beyondcompare3
-    manager: chocolatey
-  - name: diffmerge
-    manager: chocolatey
-  - name: heidisql
-    manager: chocolatey
-  - name: ultramon
-    manager: chocolatey
-  - name: autohotkey
-    manager: chocolatey
-  - name: nodejs.install
-    manager: chocolatey
-  - name: python2
-    manager: chocolatey
-  - name: python
-    manager: chocolatey
-  - name: sourcetree
-    manager: chocolatey
-  - name: vlc
-    manager: chocolatey
-  - name: 7zip.install
-    manager: chocolatey
-  - name: filezilla
-    manager: chocolatey
-  - name: irfanview
-    manager: chocolatey
-  - name: paint.net
-    manager: chocolatey
-  - name: ditto
-    manager: chocolatey
-  - name: teracopy
-    manager: chocolatey
-  - name: markdownpad2
-    manager: chocolatey
-  - name: linqpad4
-    manager: chocolatey
-  - name: ilspy
-    manager: chocolatey
-  - name: dotpeek
-    manager: chocolatey
-  - name: VisualStudio2019Community
-    manager: chocolatey
-  - name: visualstudiocode
-    manager: chocolatey
-  - name: firacode
-    manager: chocolatey
+  # Browsers
+  - name: Google.Chrome
+    manager: winget
+  - name: Google.Chrome.Canary
+    manager: winget
+  - name: Mozilla.Firefox
+    manager: winget
+  - name: Opera.Opera
+    manager: winget
+
+  # Dev tools
+  - name: Git.Git
+    manager: winget
+  - name: Microsoft.VisualStudioCode
+    manager: winget
+  - name: Docker.DockerDesktop
+    manager: winget
+  - name: Microsoft.DotNet.SDK.10
+    manager: winget
+  - name: CoreyButler.NVMforWindows
+    manager: winget
+  - name: Oven-sh.Bun
+    manager: winget
+  - name: Python.Python.3.13
+    manager: winget
+  - name: RubyInstallerTeam.RubyWithDevKit.3.4
+    manager: winget
+  - name: Microsoft.PowerShell
+    manager: winget
+  - name: Microsoft.OpenSSH.Preview
+    manager: winget
+  - name: icsharpcode.ILSpy
+    manager: winget
+  - name: JetBrains.dotPeek
+    manager: winget
+  - name: JetBrains.ReSharper
+    manager: winget
+
+  # Databases
+  - name: HeidiSQL.HeidiSQL
+    manager: winget
+  - name: 3TSoftwareLabs.Robo3T
+    manager: winget
+  - name: DBBrowserForSQLite.DBBrowserForSQLite
+    manager: winget
+
+  # Networking
+  - name: WiresharkFoundation.Wireshark
+    manager: winget
+  - name: mitmproxy.mitmproxy
+    manager: winget
+
+  # API
+  - name: hoppscotch.Hoppscotch
+    manager: winget
+
+  # Utilities
+  - name: Dropbox.Dropbox
+    manager: winget
+  - name: Obsidian.Obsidian
+    manager: winget
+  - name: Notepad++.Notepad++
+    manager: winget
+  - name: AutoHotkey.AutoHotkey
+    manager: winget
+  - name: Microsoft.PowerToys
+    manager: winget
+  - name: Microsoft.Sysinternals.Suite
+    manager: winget
+  - name: ScooterSoftware.BeyondCompare.4
+    manager: winget
+  - name: AgileBits.1Password
+    manager: winget
+  - name: hluk.CopyQ
+    manager: winget
+  - name: ShareX.ShareX
+    manager: winget
+
+  # File tools
+  - name: 7zip.7zip
+    manager: winget
+  - name: WinDirStat.WinDirStat
+    manager: winget
+  - name: PDFLabs.PDFtk.Free
+    manager: winget
+  - name: Sandboxie.Plus
+    manager: winget
+
+  # Media
+  - name: VideoLAN.VLC
+    manager: winget
+  - name: IrfanSkiljan.IrfanView
+    manager: winget
+  - name: dotPDN.PaintDotNet
+    manager: winget
+  - name: Spotify.Spotify
+    manager: winget
+
+  # Communication
+  - name: SlackTechnologies.Slack
+    manager: winget
+  - name: Discord.Discord
+    manager: winget
+
+  # Gaming
+  - name: Valve.Steam
+    manager: winget
