@@ -1,0 +1,12 @@
+display-name: Notepad++
+platforms:
+  - Windows
+links:
+  - source: config.xml
+    target: "%APPDATA%\\Notepad++\\config.xml"
+  - source: shortcuts.xml
+    target: "%APPDATA%\\Notepad++\\shortcuts.xml"
+  - source: langs.xml
+    target: "%APPDATA%\\Notepad++\\langs.xml"
+  - source: contextMenu.xml
+    target: "%APPDATA%\\Notepad++\\contextMenu.xml"

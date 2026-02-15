@@ -1,0 +1,11 @@
+display-name: Visual Studio 2019
+platforms:
+  - Windows
+links:
+  - source: "2019"
+    target: "%USERPROFILE%\\Documents\\Visual Studio 2019"
+    link-type: junction
+  - source: 2019/Settings/CurrentSettings.vssettings
+    target: "%LOCALAPPDATA%\\Microsoft\\VisualStudio\\16.0_930b7bdf\\Settings\\CurrentSettings.vssettings"
+  - source: 2019/Settings/CurrentSettings.vssettings
+    target: "%LOCALAPPDATA%\\Microsoft\\VisualStudio\\16.0_1e0f5986\\Settings\\CurrentSettings.vssettings"

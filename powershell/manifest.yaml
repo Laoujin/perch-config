@@ -1,0 +1,35 @@
+display-name: PowerShell
+platforms:
+  - Windows
+links:
+  # .NET Core / PowerShell 7+ profiles
+  - source: profiles/Microsoft.PowerShell_profile.ps1
+    target: "%USERPROFILE%\\Documents\\PowerShell\\Microsoft.PowerShell_profile.ps1"
+  - source: profiles/Microsoft.PowerShellISE_profile.ps1
+    target: "%USERPROFILE%\\Documents\\PowerShell\\Microsoft.PowerShellISE_profile.ps1"
+  - source: profiles/Microsoft.VSCode_profile.ps1
+    target: "%USERPROFILE%\\Documents\\PowerShell\\Microsoft.VSCode_profile.ps1"
+  - source: profiles/NuGet_profile.ps1
+    target: "%USERPROFILE%\\Documents\\PowerShell\\NuGet_profile.ps1"
+
+  # Windows PowerShell 5.x (Package Manager Console + VS Code)
+  - source: profiles/NuGet_profile.ps1
+    target: "%USERPROFILE%\\Documents\\WindowsPowerShell\\NuGet_profile.ps1"
+  - source: profiles/Microsoft.VSCode_profile.ps1
+    target: "%USERPROFILE%\\Documents\\WindowsPowerShell\\Microsoft.VSCode_profile.ps1"
+
+  # Scripts junction
+  - source: scripts
+    target: "%USERPROFILE%\\Documents\\PowerShell\\dotfiles"
+    link-type: junction
+  - source: scripts
+    target: "%USERPROFILE%\\Documents\\WindowsPowerShell\\dotfiles"
+    link-type: junction
+
+  # Config files
+  - source: cd-aliases.ini
+    target: "%USERPROFILE%\\Documents\\PowerShell\\cd-aliases.ini"
+  - source: prompt-aliases.ini
+    target: "%USERPROFILE%\\Documents\\PowerShell\\prompt-aliases.ini"
+  - source: auto-print.md
+    target: "%USERPROFILE%\\Documents\\PowerShell\\auto-print.md"

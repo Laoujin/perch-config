@@ -1,0 +1,8 @@
+display-name: Beyond Compare
+platforms:
+  - Windows
+links:
+  - source: BCCommands.xml
+    target: "%APPDATA%\\Scooter Software\\Beyond Compare 3\\BCCommands.xml"
+  - source: BCPreferences.xml
+    target: "%APPDATA%\\Scooter Software\\Beyond Compare 3\\BCPreferences.xml"

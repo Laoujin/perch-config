@@ -1,0 +1,6 @@
+display-name: VLC
+platforms:
+  - Windows
+links:
+  - source: vlcrc
+    target: "%APPDATA%\\vlc\\vlcrc"
