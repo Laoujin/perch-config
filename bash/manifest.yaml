@@ -1,0 +1,7 @@
+display-name: Bash
+platforms:
+  - Linux
+  - MacOS
+links:
+  - source: .bashrc
+    target: "$HOME/.bashrc"
