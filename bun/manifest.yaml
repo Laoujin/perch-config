@@ -1,5 +1,5 @@
-display-name: Bun Global Packages
-enabled: false
+display-name: Bun
+gallery: bun
 global-packages:
   manager: bun
   packages:

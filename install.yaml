@@ -1,0 +1,66 @@
+apps:
+  # Browsers
+  - chrome
+  - chrome-canary
+  - firefox
+  - opera
+
+  # Dev tools
+  - git
+  - vscode
+  - docker
+  - dotnet-sdk
+  - nvm
+  - bun
+  - python
+  - ruby
+  - powershell
+  - zoxide
+  - fzf
+  - openssh
+  - ilspy
+  - dotpeek
+  - resharper
+
+  # Databases
+  - heidisql
+  - robo3t
+  - db-browser-sqlite
+
+  # Networking
+  - wireshark
+  - mitmproxy
+
+  # API
+  - hoppscotch
+
+  # Utilities
+  - dropbox
+  - obsidian
+  - notepadplusplus
+  - autohotkey
+  - powertoys
+  - sysinternals
+  - beyondcompare
+  - 1password
+  - copyq
+  - sharex
+
+  # File tools
+  - 7zip
+  - windirstat
+  - pdftk
+  - sandboxie-plus
+
+  # Media
+  - vlc
+  - irfanview
+  - paint-dot-net
+  - spotify
+
+  # Communication
+  - slack
+  - discord
+
+  # Gaming
+  - steam
