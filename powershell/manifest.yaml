@@ -37,6 +37,6 @@ links:
 ps-modules:
   - Posh-Git
   - PSReadLine
-  - Jump.Location
+  - zoxide
   - PSYaml
   - Git-NumberedAdd
