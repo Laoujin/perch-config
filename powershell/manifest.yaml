@@ -38,5 +38,5 @@ ps-modules:
   - Posh-Git
   - PSReadLine
   - zoxide
-  - PSYaml
+  - powershell-yaml
   - Git-NumberedAdd
