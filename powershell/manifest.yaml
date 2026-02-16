@@ -33,3 +33,10 @@ links:
     target: "%USERPROFILE%\\Documents\\PowerShell\\prompt-aliases.ini"
   - source: auto-print.md
     target: "%USERPROFILE%\\Documents\\PowerShell\\auto-print.md"
+
+ps-modules:
+  - Posh-Git
+  - PSReadLine
+  - Jump.Location
+  - PSYaml
+  - Git-NumberedAdd
