@@ -37,6 +37,9 @@ links:
 ps-modules:
   - Posh-Git
   - PSReadLine
-  - Jump.Location
-  - PSYaml
+  - zoxide
+  - powershell-yaml
   - Git-NumberedAdd
+  - Terminal-Icons
+  - PSFzf
+  - CompletionPredictor

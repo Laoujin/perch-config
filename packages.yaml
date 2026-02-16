@@ -28,6 +28,10 @@ packages:
     manager: winget
   - name: Microsoft.PowerShell
     manager: winget
+  - name: ajeetdsouza.zoxide
+    manager: winget
+  - name: junegunn.fzf
+    manager: winget
   - name: Microsoft.OpenSSH.Preview
     manager: winget
   - name: icsharpcode.ILSpy
