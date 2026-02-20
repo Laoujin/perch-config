@@ -1,0 +1,5 @@
+display-name: Perch Settings
+links:
+  - source: settings.yaml
+    target:
+      windows: "%APPDATA%\\perch\\settings.yaml"
