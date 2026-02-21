@@ -1,4 +1,4 @@
-gallery: visualstudio
+gallery: vs2019-community
 links:
   - source: "2019"
     target: "%USERPROFILE%\\Documents\\Visual Studio 2019"
