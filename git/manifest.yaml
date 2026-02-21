@@ -27,8 +27,3 @@ links:
       windows: "%USERPROFILE%\\.gitattributes_global"
       linux: "$HOME/.gitattributes_global"
       macos: "$HOME/.gitattributes_global"
-  - source: .editorconfig
-    target:
-      windows: "%USERPROFILE%\\.editorconfig"
-      linux: "$HOME/.editorconfig"
-      macos: "$HOME/.editorconfig"
