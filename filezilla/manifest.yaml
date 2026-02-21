@@ -1,7 +1,4 @@
-display-name: FileZilla
 gallery: filezilla
-platforms:
-  - Windows
 links:
   - source: filezilla.xml
     target: "%APPDATA%\\FileZilla\\filezilla.xml"

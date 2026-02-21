@@ -1,7 +1,4 @@
-display-name: Visual Studio 2019
 gallery: visualstudio
-platforms:
-  - Windows
 links:
   - source: "2019"
     target: "%USERPROFILE%\\Documents\\Visual Studio 2019"

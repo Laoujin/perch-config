@@ -1,8 +1,4 @@
-display-name: Bash
 gallery: bash
-platforms:
-  - Linux
-  - MacOS
 links:
   - source: .bashrc
     target: "$HOME/.bashrc"

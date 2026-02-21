@@ -1,7 +1,4 @@
-display-name: VLC
 gallery: vlc
-platforms:
-  - Windows
 links:
   - source: vlcrc
     target: "%APPDATA%\\vlc\\vlcrc"

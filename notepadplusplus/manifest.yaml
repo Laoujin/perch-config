@@ -1,7 +1,4 @@
-display-name: Notepad++
 gallery: notepadplusplus
-platforms:
-  - Windows
 links:
   - source: config.xml
     target: "%APPDATA%\\Notepad++\\config.xml"

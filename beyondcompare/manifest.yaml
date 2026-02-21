@@ -1,7 +1,4 @@
-display-name: Beyond Compare
 gallery: beyondcompare
-platforms:
-  - Windows
 links:
   - source: BCCommands.xml
     target: "%APPDATA%\\Scooter Software\\Beyond Compare 3\\BCCommands.xml"

@@ -1,7 +1,4 @@
-display-name: PowerShell
 gallery: powershell
-platforms:
-  - Windows
 links:
   # .NET Core / PowerShell 7+ profiles
   - source: profiles/Microsoft.PowerShell_profile.ps1

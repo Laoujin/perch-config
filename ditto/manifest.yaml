@@ -1,7 +1,4 @@
-display-name: Ditto
 gallery: ditto
-platforms:
-  - Windows
 registry:
   - key: HKEY_CURRENT_USER\Software\Ditto
     name: DittoHotKey

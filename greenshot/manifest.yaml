@@ -1,7 +1,4 @@
-display-name: Greenshot
 gallery: greenshot
-platforms:
-  - Windows
 links:
   - source: Greenshot.ini
     target: "%APPDATA%\\Greenshot\\Greenshot.ini"
