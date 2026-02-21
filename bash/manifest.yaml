@@ -1,6 +1,1 @@
 gallery: bash
-links:
-  - source: .bashrc
-    target:
-      linux: "$HOME/.bashrc"
-      macos: "$HOME/.bashrc"
