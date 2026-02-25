@@ -12,23 +12,22 @@
 [diff]
 	tool = vsc
 
-[difftool "bc3"]
-	path = C:\\Program Files (x86)\\Beyond Compare 3\\bcomp.exe
-#	cmd = \"c:/program files (x86)/beyond compare 3/bcomp.exe\" \"$LOCAL\" \"$REMOTE\"
+[difftool "bc"]
+	path = C:\\Program Files\\Beyond Compare 5\\bcomp.exe
 
 [difftool "vsc"]
-	cmd = code --wait --diff $LOCAL $REMOTE
+	cmd = C:\\Program Files\\Microsoft VS Code\\Code.exe --wait --diff $LOCAL $REMOTE
 
 [merge]
-	tool = bc3
+	tool = bc
 
 [mergetool]
 	prompt = false
 	keepBackup = false
 
-[mergetool "bc3"]
-	path = C:\\Program Files (x86)\\Beyond Compare 3\\bcomp.exe
+[mergetool "bc"]
+	path = C:\\Program Files\\Beyond Compare 5\\bcomp.exe
 	trustExitCode = true
 
 [mergetool "vsc"]
-	cmd = code --wait $MERGED
+	cmd = C:\\Program Files\\Microsoft VS Code\\Code.exe --wait $MERGED
