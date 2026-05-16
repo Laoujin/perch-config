@@ -1,3 +1,6 @@
 [submodule "git"]
 	path = git
 	url = https://github.com/Laoujin/Git-Config.git
+[submodule "powershell"]
+	path = powershell
+	url = https://github.com/Laoujin/PowerShell-Config.git
