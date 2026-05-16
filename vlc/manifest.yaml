@@ -1,4 +1,1 @@
 gallery: vlc
-links:
-  - source: vlcrc
-    target: "%APPDATA%\\vlc\\vlcrc"

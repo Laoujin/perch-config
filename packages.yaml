@@ -72,8 +72,6 @@ packages:
     manager: winget
   - name: Microsoft.Sysinternals.Suite
     manager: winget
-  - name: ScooterSoftware.BeyondCompare.4
-    manager: winget
   - name: AgileBits.1Password
     manager: winget
   - name: hluk.CopyQ

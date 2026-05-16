@@ -1,4 +1,1 @@
 gallery: greenshot
-links:
-  - source: Greenshot.ini
-    target: "%APPDATA%\\Greenshot\\Greenshot.ini"
