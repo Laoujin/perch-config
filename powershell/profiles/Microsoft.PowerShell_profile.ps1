@@ -66,7 +66,7 @@ if (Test-Path $aliasesPath) {
 Pop-Location
 
 
-Start-SshAgent -Quiet
+# Start-SshAgent -Quiet
 
 
 # More colorblindness fun:
