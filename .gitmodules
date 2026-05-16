@@ -4,3 +4,6 @@
 [submodule "powershell"]
 	path = powershell
 	url = https://github.com/Laoujin/PowerShell-Config.git
+[submodule "claude"]
+	path = claude
+	url = https://github.com/Laoujin/claude-config.git
