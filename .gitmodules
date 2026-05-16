@@ -7,3 +7,6 @@
 [submodule "claude"]
 	path = claude
 	url = https://github.com/Laoujin/claude-config.git
+[submodule "bash"]
+	path = bash
+	url = https://github.com/Laoujin/bash-config.git
