@@ -23,7 +23,7 @@
 	# As above, but in your difftool
 	merge-dt = "!git difftool `git merge-span ... $1`"
 
-	mm = merge master
+	mm = merge main
 	md = merge development
 	mds = merge develop
 	mod = merge origin/development
@@ -70,7 +70,7 @@
 	cob = checkout -b
 	cod = checkout development
 	cods = checkout develop
-	com = checkout master
+	com = checkout main
 	cot = checkout test
 	cop = checkout gh-pages
 	col = checkout laoujin
@@ -111,10 +111,10 @@
 
 	### Collaborating
 	sha = rev-parse HEAD
-	gom = pull origin master
+	gom = pull origin main
 	mod = merge origin/development
 	mods = merge origin/develop
-	mom = merge origin/master
+	mom = merge origin/main
 
 	# push/delete origin
 	branch-name = "!git rev-parse --abbrev-ref HEAD"

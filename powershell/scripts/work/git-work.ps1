@@ -9,7 +9,7 @@ function Create-PullRequest() {
 
 	$sourceBranch = git rev-parse --abbrev-ref HEAD
 	# $targetBranch = "develop"
-	$targetBranch = "master"
+	$targetBranch = "main"
 
 	git push -u origin $sourceBranch
 	start $urlTemplate.Replace("{base-url}", $baseUrl).Replace("{source-branch}", [uri]::EscapeDataString($sourceBranch)).Replace("{target-branch}", $targetBranch)
