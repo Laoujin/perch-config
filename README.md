@@ -10,7 +10,6 @@ Personal dotfiles managed by [Perch](https://github.com/Laoujin/perch-the-buildi
 | bash | Linux/Mac | `.bashrc` |
 | powershell | Windows | PowerShell profiles, scripts, PS modules (Posh-Git, PSReadLine, etc.) |
 | vscode | All | `settings.json`, `keybindings.json`, snippets, extensions |
-| beyondcompare | Windows | Settings |
 | cmder | Windows | Cmder configuration |
 | ditto | Windows | Registry settings (hotkeys, window position) |
 | filezilla | Windows | Connection and layout config (in `programs/filezilla/`) |
