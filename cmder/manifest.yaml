@@ -1,6 +1,0 @@
-gallery: cmder
-links:
-  - source: ConEmu.xml
-    target: "C:\\tools\\cmder\\vendor\\conemu-maximus5\\ConEmu.xml"
-  - source: ConEmu.xml
-    target: "C:\\Work\\cmder\\vendor\\conemu-maximus5\\ConEmu.xml"
