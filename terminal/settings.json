@@ -6,7 +6,6 @@
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "firstWindowPreference": "defaultProfile",
-    "startupActions": "new-tab -p {574e775e-4f2a-5b96-ac1e-a2962a402336} -d C:\\Users\\woute\\Dropbox\\Personal\\Programming\\UnixCode\\ ; split-pane -V -p {e9fa2038-6e04-5b5a-b995-cbb9e39a0525} -d C:\\Users\\woute\\Dropbox\\Personal\\Programming\\UnixCode\\",
     "keybindings":
     [
         {
@@ -71,7 +70,8 @@
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell",
-                "source": "Windows.Terminal.PowershellCore"
+                "source": "Windows.Terminal.PowershellCore",
+                "startingDirectory": "c:\\temp"
             },
             {
                 "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
@@ -88,5 +88,6 @@
         ]
     },
     "schemes": [],
+    "startupActions": "new-tab -p {574e775e-4f2a-5b96-ac1e-a2962a402336} -d C:\\Users\\woute\\Dropbox\\Personal\\Programming\\UnixCode\\ ; split-pane -V -p {e9fa2038-6e04-5b5a-b995-cbb9e39a0525} -d C:\\Users\\woute\\Dropbox\\Personal\\Programming\\UnixCode\\",
     "themes": []
 }
