@@ -395,5 +395,20 @@
         "cx"
     ],
     "git.blame.editorDecoration.enabled": false,
-    "claudeCode.preferredLocation": "panel"
+    "claudeCode.preferredLocation": "panel",
+    "chat.titleBar.signIn.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "chat.disableAIFeatures": true,
+    "workbench.layoutControl.enabled": false,
+    "window.confirmSaveUntitledWorkspace": false,
+    "json.schemaDownload.trustedDomains": {
+        "https://developer.microsoft.com/json-schemas/": true,
+        "https://itenium-be.github.io": true,
+        "https://json-schema.org/": true,
+        "https://json.schemastore.org/": true,
+        "https://raw.githubusercontent.com/devcontainers/spec/": true,
+        "https://raw.githubusercontent.com/microsoft/vscode/": true,
+        "https://schemastore.azurewebsites.net/": true,
+        "https://www.schemastore.org/": true
+    }
 }
