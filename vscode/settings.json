@@ -404,6 +404,7 @@
     "json.schemaDownload.trustedDomains": {
         "https://developer.microsoft.com/json-schemas/": true,
         "https://itenium-be.github.io": true,
+        "https://itenium-forge.github.io": true,
         "https://json-schema.org/": true,
         "https://json.schemastore.org/": true,
         "https://raw.githubusercontent.com/devcontainers/spec/": true,
