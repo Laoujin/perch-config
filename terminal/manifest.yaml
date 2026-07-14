@@ -1,0 +1,5 @@
+gallery: windows-terminal
+links:
+  - source: settings.json
+    target:
+      windows: "%LOCALAPPDATA%\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
