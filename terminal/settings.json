@@ -25,7 +25,8 @@
             "keys": "alt+shift+d"
         }
     ],
-    "newTabMenu":
+    "language": "en-US",
+    "newTabMenu": 
     [
         {
             "type": "remainingProfiles"
