@@ -1,0 +1,4 @@
+links:
+  - source: .wslconfig
+    target:
+      windows: "%USERPROFILE%\\.wslconfig"

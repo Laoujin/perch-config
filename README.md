@@ -12,6 +12,7 @@ Personal dotfiles managed by [Perch](https://github.com/Laoujin/perch-the-buildi
 | vscode | All | `settings.json`, `keybindings.json`, snippets, extensions |
 | cmder | Windows | Cmder configuration |
 | terminal | Windows | Windows Terminal `settings.json` |
+| wsl | Windows | `.wslconfig` (WSL2 memory, swap, processors) |
 | ditto | Windows | Registry settings (hotkeys, window position) |
 | filezilla | Windows | Connection and layout config (in `programs/filezilla/`) |
 | greenshot | Windows | Screenshot tool settings |
