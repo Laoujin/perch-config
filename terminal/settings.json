@@ -4,9 +4,9 @@
     "actions": [],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "defaultProfile": "{e9fa2038-6e04-5b5a-b995-cbb9e39a0525}",
     "firstWindowPreference": "defaultProfile",
-    "keybindings":
+    "keybindings": 
     [
         {
             "id": "Terminal.CopyToClipboard",
@@ -32,10 +32,10 @@
             "type": "remainingProfiles"
         }
     ],
-    "profiles":
+    "profiles": 
     {
         "defaults": {},
-        "list":
+        "list": 
         [
             {
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
@@ -89,6 +89,6 @@
         ]
     },
     "schemes": [],
-    "startupActions": "new-tab -p {574e775e-4f2a-5b96-ac1e-a2962a402336} -d C:\\Users\\woute\\Dropbox\\Personal\\Programming\\UnixCode\\ ; split-pane -V -p {e9fa2038-6e04-5b5a-b995-cbb9e39a0525} -d C:\\Users\\woute\\Dropbox\\Personal\\Programming\\UnixCode\\",
+    "startupActions": "new-tab -p {e9fa2038-6e04-5b5a-b995-cbb9e39a0525} -d \\\\wsl.localhost\\Ubuntu\\home\\wouter\\projects ; split-pane -V -p {e9fa2038-6e04-5b5a-b995-cbb9e39a0525} -d \\\\wsl.localhost\\Ubuntu\\home\\wouter\\projects",
     "themes": []
 }
