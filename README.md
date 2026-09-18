@@ -8,6 +8,7 @@ Personal dotfiles managed by [Perch](https://github.com/Laoujin/perch-the-buildi
 |--------|----------|-----------------|
 | git | All | `.gitconfig`, `.gitignore_global`, `.gitattributes_global`, `.editorconfig` |
 | bash | Linux/Mac | `.bashrc` |
+| tmux | Linux/Mac | `.tmux.conf` |
 | powershell | Windows | PowerShell profiles, scripts, PS modules (Posh-Git, PSReadLine, etc.) |
 | vscode | All | `settings.json`, `keybindings.json`, snippets, extensions |
 | cmder | Windows | Cmder configuration |

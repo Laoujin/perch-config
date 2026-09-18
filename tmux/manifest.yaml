@@ -1,0 +1,5 @@
+links:
+  - source: .tmux.conf
+    target:
+      linux: "$HOME/.tmux.conf"
+      macos: "$HOME/.tmux.conf"
