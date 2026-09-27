@@ -1,0 +1,22 @@
+# Homelab — see Home/docs/runbooks/18-ssh-access.md
+# Names resolve via docs/addressing.md (*.lan.sangu.be)
+
+Host lab-01
+    HostName lab-01.lan.sangu.be
+    User root
+    IdentityFile ~/.ssh/id_rsa
+
+Host docker-01 apps-01 obs-01 itenium-01
+    HostName %h.lan.sangu.be
+    User wouter
+    IdentityFile ~/.ssh/id_rsa
+
+Host nas-work
+    HostName nas-work.lan.sangu.be
+    User laoujin
+    Port 22000
+
+Host nas-media
+    HostName nas-media.lan.sangu.be
+    User laoujin
+    Port 22000

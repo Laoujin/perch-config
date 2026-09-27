@@ -1,0 +1,4 @@
+links:
+  - source: config
+    target:
+      windows: "%USERPROFILE%\\.ssh\\config"
