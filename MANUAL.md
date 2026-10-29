@@ -9,6 +9,20 @@ Stored in `%APPDATA%/FileZilla`.
 Synced but excluded from git.
 
 
+Dropbox
+-------
+
+`rules.dropboxignore` only applies to folders created after the rule.
+Existing matches must be marked once (removes them from the cloud and other PCs):
+
+```powershell
+$r = "$env:USERPROFILE\Dropbox"
+Get-ChildItem $r -Directory -Recurse -Force -Include node_modules,obj,Debug,Release |
+  ? { $_.FullName -notmatch '\\node_modules\\.+' -and ($_.Name -notin 'Debug','Release' -or $_.Parent.Name -eq 'bin') } |
+  % { Set-Content -LiteralPath $_.FullName -Stream com.dropbox.ignored -Value 1 }
+```
+
+
 HeidiSQL
 --------
 

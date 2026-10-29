@@ -1,0 +1,4 @@
+links:
+  - source: rules.dropboxignore
+    target:
+      windows: "%USERPROFILE%\\Dropbox\\rules.dropboxignore"

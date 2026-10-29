@@ -15,6 +15,7 @@ Personal dotfiles managed by [Perch](https://github.com/Laoujin/perch-the-buildi
 | terminal | Windows | Windows Terminal `settings.json` |
 | wsl | Windows | `.wslconfig` (WSL2 memory, swap, processors) |
 | ssh | Windows | `~/.ssh/config` (homelab host aliases) |
+| dropbox | Windows | `rules.dropboxignore` (keep build output out of Dropbox) |
 | ditto | Windows | Registry settings (hotkeys, window position) |
 | filezilla | Windows | Connection and layout config (in `programs/filezilla/`) |
 | greenshot | Windows | Screenshot tool settings |

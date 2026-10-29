@@ -1,0 +1,5 @@
+# bin/ alone would also catch source dirs (Dart bin/, plugin bin/, PowerShell module bin/)
+**/node_modules/
+**/obj/
+**/bin/Debug/
+**/bin/Release/
