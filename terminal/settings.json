@@ -84,7 +84,7 @@
                 "guid": "{e9fa2038-6e04-5b5a-b995-cbb9e39a0525}",
                 "hidden": false,
                 "name": "Ubuntu",
-                "source": "Microsoft.WSL"
+                "commandline": "wsl.exe -d Ubuntu"
             }
         ]
     },
