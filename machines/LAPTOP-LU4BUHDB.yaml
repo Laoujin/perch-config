@@ -1,0 +1,4 @@
+# Documents is redirected into Dropbox on this machine.
+# Perch expands variables in one pass, so this must be a literal path.
+variables:
+  DOCUMENTS: "C:\\Users\\wouter\\Dropbox\\My PC (LAPTOP-LU4BUHDB)\\Documents"
